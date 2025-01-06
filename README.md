@@ -1,5 +1,5 @@
 # MetalLB Configuration
-## First you need to install metallb i your cluster run the following command
+## First you need to install metallb in your cluster run the following command
 ```
 kubectl apply -f https://raw.githubusercontent.com/metallb/metallb/main/config/manifests/metallb-native.yaml
 ```
