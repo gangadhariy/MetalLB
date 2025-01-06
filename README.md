@@ -8,6 +8,7 @@ kubectl apply -f https://raw.githubusercontent.com/metallb/metallb/main/config/m
 kubectl get pods -n metallb-system
 ```
 ## make sure all pods are running
+## You need to create ip pool to provide the ip range for loadbalacer 
 ## Now Apply ip.yaml
 ```
 kubectl apply -f ip.yaml
