@@ -3,7 +3,7 @@
 ```
 kubectl apply -f https://raw.githubusercontent.com/metallb/metallb/main/config/manifests/metallb-native.yaml
 ```
-## Now check the pods runiing or not
+## Now check the pods running or not
 ```
 kubectl get pods -n metallb-system
 ```
